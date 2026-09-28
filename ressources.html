@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ressources — CyberSûr USAZ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.5 9.7 8 11 4.5-1.3 8-6 8-11V5l-8-3Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        <span>CyberSûr <strong>USAZ</strong></span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="cours.html">Cours</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="simulateurs.html">Simulateurs</a></li>
+          <li><a href="bonnes-pratiques.html">Bonnes pratiques</a></li>
+          <li><a href="ressources.html" class="active">Ressources</a></li>
+          <li><a href="dashboard.html" class="btn btn-outline">Mon espace</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Thème sombre">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="page-title">Ressources utiles</h1>
+      <p class="section-subtitle">Sites officiels et références fiables pour aller plus loin.</p>
+
+      <div class="grid grid-3">
+        <a class="resource-card card" href="https://www.cybermalveillance.gouv.fr/" target="_blank" rel="noopener noreferrer">
+          <h3>🛡️ Cybermalveillance.gouv.fr</h3>
+          <p>Dispositif national français d'assistance aux victimes de cybermalveillance.</p>
+        </a>
+        <a class="resource-card card" href="https://www.cnil.fr/" target="_blank" rel="noopener noreferrer">
+          <h3>🗂️ CNIL</h3>
+          <p>Autorité française de protection des données personnelles.</p>
+        </a>
+        <a class="resource-card card" href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener noreferrer">
+          <h3>🌐 OWASP Top 10</h3>
+          <p>Les 10 risques majeurs de sécurité des applications web.</p>
+        </a>
+        <a class="resource-card card" href="https://www.cyber.gc.ca/fr/" target="_blank" rel="noopener noreferrer">
+          <h3>🍁 Centre canadien pour la cybersécurité</h3>
+          <p>Conseils et guides pour se protéger en ligne.</p>
+        </a>
+        <a class="resource-card card" href="https://haveibeenpwned.com/" target="_blank" rel="noopener noreferrer">
+          <h3>📧 Have I Been Pwned</h3>
+          <p>Vérifiez si votre email apparaît dans une fuite de données connue.</p>
+        </a>
+        <a class="resource-card card" href="https://www.ssi.gouv.fr/" target="_blank" rel="noopener noreferrer">
+          <h3>🇫🇷 ANSSI</h3>
+          <p>Agence nationale de la sécurité des systèmes d'information.</p>
+        </a>
+      </div>
+
+      <div class="warning-banner" role="note" style="margin-top:2rem;">
+        <strong>Rappel :</strong> Ces liens pointent vers des sites officiels.
+        CyberSûr USAZ n'héberge aucun outil offensif et ne recommande
+        que des ressources éducatives et défensives.
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom"><p>© <span class="year"></span> CyberSûr USAZ</p></div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
